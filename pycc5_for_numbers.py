@@ -26,3 +26,6 @@ for value in range(1,11):
 #each new value is appended
     squares.append(square)
 print(squares)
+
+for value in range(1, 21):
+    print (value)
