@@ -1,5 +1,8 @@
 #refactoring of code, where two functions are written
 
+#define function print_models() with two parameters:
+# a list of designs that need to be printed and 
+# a list of completed models
 def print_models(unprinted_designs, completed_models):
     """
     Simulate printing each design, until none are left.
@@ -23,3 +26,6 @@ completed_models = []
 
 print_models(unprinted_designs, completed_models)
 show_completed_models(completed_models)
+
+#if you don't want the function to permanently change a list you can send a copy
+# function_name(list_name[:])
