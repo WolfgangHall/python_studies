@@ -9,6 +9,7 @@ while polling_active:
     response = input("Which mountain would you like to climb someday? ")
 
     #store the response in the dictionary
+    #makes a key value pair for name and response
     responses[name] = response
 
     #find out if anyone else is going to take the poll
